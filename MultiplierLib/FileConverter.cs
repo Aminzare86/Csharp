@@ -17,14 +17,6 @@ namespace MultiplierLib
 			var message = $"{firstName} {lastName} ÄR { years} ÅR GAMMAL.";
 			return message;
 		}
-		public string Transform1(string row)
-		{
-			string[] toknes = row.Split(';');
-			var firstName = toknes[0].ToUpper();
-			var lastName = toknes[1].ToUpper();
-			var years = DateTime.Now.Year - int.Parse(toknes[2]);
-			var message = $"{firstName} {lastName} ÄR { years} ÅR GAMMAL.";
-			return message;
-		}
+		
 	}
 }

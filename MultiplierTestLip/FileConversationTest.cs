@@ -18,7 +18,7 @@ namespace MultiplierTestLip
 		public void amanda_asplund_2003()
 		{
 			var sut = new FileConverter();
-			string actual = sut.Transform1("amanda;asplund;2003");
+			string actual = sut.Transform("amanda;asplund;2003");
 			Assert.AreEqual("AMANDA ASPLUND ÄR 14 ÅR GAMMAL.", actual);
 		}
 	}
