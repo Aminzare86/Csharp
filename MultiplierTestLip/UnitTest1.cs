@@ -1,19 +1,39 @@
 ﻿using System;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-namespace MultiplierTestLip
+namespace MultiplierTestsLib
 {
 	[TestClass]
-	public class UnitTest1
+	public class MultiplierTests
 	{
 		[TestMethod]
-		public void TestMethod1()
+		public void Simple()
 		{
-			//Arrangé
+			// Arrange
 			MultiplierLib.Multiplier myMultiplier = new MultiplierLib.Multiplier();
-			//Act
+			// Act
 			var actual = myMultiplier.Simple(20, 20);
-			//Assert
+			// Assert
+			Assert.AreEqual(400, actual);
+		}
+		[TestMethod]
+		public void UsingFor()
+		{
+			// Arrange
+			MultiplierLib.Multiplier myMultiplier = new MultiplierLib.Multiplier();
+			// Act
+			var actual = myMultiplier.UsingFor(20, 20);
+			// Assert
+			Assert.AreEqual(400, actual);
+		}
+		[TestMethod]
+		public void While()
+		{
+			// Arrange
+			MultiplierLib.Multiplier myMultiplier = new MultiplierLib.Multiplier();
+			// Act
+			var actual = myMultiplier.UsingFor(20, 20);
+			// Assert
 			Assert.AreEqual(400, actual);
 		}
 	}
