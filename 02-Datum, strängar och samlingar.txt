@@ -1,0 +1,70 @@
+Demonstration av arbetsgången i Visual Studio
+---------------------------------------------
+
+- En problematisk Console-applikation
+- Vi objektifierar applikationen
+- Och gör den testbar
+- C# Interactive
+- Att lägga till ett komponenttest
+- Att lägga till en komponent
+
+- Output från ett enhetstest (istället för en Console-applikation)
+- Input från ett enhetstest (hårdkodat istället för Console-input)
+- Röd, Grön, Refaktorera
+- Hur man debuggar ett enhetstest
+
+Några visdomsord
+----------------
+
+- Röd, Grön och Refaktorera är mantrat för testdriven utveckling
+- Enhetstesta för att reducera behovet av manuell testning
+- Ge dina identifierare (klasser, metoder, variabler etc) beskrivnade namn
+- Varje metod bör ha en motsvarande testmetod
+
+Uppgifter
+---------
+
+- Använd C# Interactive för att testa en lista av strängar:
+  var strings = new List<string>() { "Jag", "gillar", "att", "programmera" };
+  strings.RemoveAt(1);
+  strings
+  strings.Add("Mattias");
+  strings
+  string.Join("-", s.ToArray())
+
+Kopiera kod från:
+https://github.com/mattiasasplund/CSharp
+
+- Kopiera ListHandlerTests.cs från MultiplierTestsLib till ditt eget testprojekt,
+  dessutom ListHandler.cs från MultiplierLib till ditt eget komponentprojekt. Ändra
+  ListHandler.cs så att testerna går igenom. Följ din intuition genom att försöka
+  förstå vad testerna begär av dig.
+
+- Använd C# Interactive för att testa datumhantering
+  var birthDate = new DateTime(1971, 4, 5);
+  var timeSpan = DateTime.Now - birthDate;
+  $"I am {timeSpan.Days} days old"
+  var timeSpanToNextBirthday = new DateTime(2018, 4, 5) - DateTime.Now;
+  $"My next birthday will arrive in {timeSpanToNextBirthday.Days} days"
+
+- Kopiera DateHandlerTests.cs från MultiplierTestsLib till ditt eget testprojekt,
+dessutom DateHandler.cs från MultiplierLib till ditt eget komponentprojekt. Ändra
+DateHandler.cs så att testerna går igenom. Följ din intuition genom att försöka
+förstå vad testerna begär av dig.
+
+//////
+
+Skapa klassen Storyteller med metoden 
+string TellStory(string nameOfChild, int ageOfChild, bool willBeScary).
+
+Gör tester som kontrollerar att följande gäller för TellStory:
+
+- om ageOfChild är under 7 ska texten börja med $"Lyssna nu {nameOfChild}.
+  Det var en gång en prinsessa ", annars ska texten börja med "Hallå {nameOfChild}!
+  En gång fanns en kille ".
+
+- om willBeScary är true ska texten fortsätta med $"som egentligen var en varulv",
+  annars ska texten fortsätta med $"som tyckte om att dansa".
+
+- om ageOfChild är under 5 och willBeScary är true ska undantaget
+  InvalidOperationException("Unga barn ska inte bli skrämda.") slängas.
