@@ -6,30 +6,30 @@ using System.Threading.Tasks;
 
 namespace Demo_01
 {
-    class Program
-    {
-        static void Main(string[] args)
-        {
-            //OODemo();
-            //Testing();
-        }
+	class Program
+	{
+		static void Main(string[] args)
+		{
+			OODemo();
 
-        private static void OODemo()
-        {
-            var tv = new Product { Name = "Samsung 55", Price = 5000 };
-            Console.WriteLine(tv);
-            Console.ReadLine();
-        }
+		}
 
-        private static void Testing()
-        {
-            int totalAge = 0;
-            for (int age = 0; age < 100; age++)
-            {
-                totalAge += age;
-                Console.WriteLine(age);
-            }
-            Console.WriteLine(totalAge);
-        }
-    }
+		private static void OODemo()
+		{
+			var tv = new Product { Name = "Samsung 55", Price = 5000 };
+			Console.WriteLine(tv);
+			Console.ReadLine();
+		}
+
+		//private static void Testing()
+		//{
+		//	int totalAge = 0;
+		//	for (int age = 0; age < 100; age++)
+		//	{
+		//		totalAge += age;
+		//		Console.WriteLine(age);
+		//	}
+		//	Console.WriteLine(totalAge);
+		//}
+	}
 }

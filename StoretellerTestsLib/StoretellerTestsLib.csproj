@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{2D30CBFA-8045-4EA3-8151-2CF2AF669D0F}</ProjectGuid>
+    <ProjectGuid>{5A5B7DCB-290D-443B-B2B0-9F839540A5E6}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>StoretellerTestsLib</RootNamespace>
@@ -48,7 +48,7 @@
     <Reference Include="System.Core" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="StorytellerTests.cs" />
+    <Compile Include="StoretellerTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -56,7 +56,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\StoretellerLib\StoretellerLib.csproj">
-      <Project>{6e7234b6-0d96-4ece-ab3d-993cd7eeaf45}</Project>
+      <Project>{8cda25f2-90b8-435e-9331-858ea828b694}</Project>
       <Name>StoretellerLib</Name>
     </ProjectReference>
   </ItemGroup>

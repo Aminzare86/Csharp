@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{EEBD1370-1499-4469-9404-D3F64DAFAFCD}</ProjectGuid>
+    <ProjectGuid>{0D37218F-F88F-43A7-AC1D-A86940D7785B}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>VarukorgTestsLib</RootNamespace>
@@ -56,7 +56,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\VarukorgLib\VarukorgLib.csproj">
-      <Project>{b6ba83e7-f4c8-482c-81fd-6a4da75ec321}</Project>
+      <Project>{492b07b0-9e48-4bbc-b745-e9852197f389}</Project>
       <Name>VarukorgLib</Name>
     </ProjectReference>
   </ItemGroup>

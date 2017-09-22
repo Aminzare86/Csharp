@@ -6,13 +6,13 @@ using System.Threading.Tasks;
 
 namespace CircusLib
 {
-    public class Artist
-    {
-        public string namn;
+	public class Artist
+	{
+		public string namn;
 
-        public Artist(string namn)
-        {
-            this.namn = namn;
-        }
-    }
+		public Artist(string namn)
+		{
+			this.namn = namn;
+		}
+	}
 }

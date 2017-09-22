@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{0AE8A614-2CB8-43ED-AF58-92E9F740595E}</ProjectGuid>
+    <ProjectGuid>{E256ED20-D881-42A1-B3A3-77BB1DF8E5E2}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <RootNamespace>StorytellerWindowsApp</RootNamespace>
     <AssemblyName>StorytellerWindowsApp</AssemblyName>
@@ -80,7 +80,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\StoretellerLib\StoretellerLib.csproj">
-      <Project>{6e7234b6-0d96-4ece-ab3d-993cd7eeaf45}</Project>
+      <Project>{8cda25f2-90b8-435e-9331-858ea828b694}</Project>
       <Name>StoretellerLib</Name>
     </ProjectReference>
   </ItemGroup>

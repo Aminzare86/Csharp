@@ -1,34 +1,48 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using Microsoft.VisualStudio.TestTools.UnitTesting;
+using MultiplierLib;
 
-namespace MultiplierLib
+namespace MultiplierTestsLib
 {
-	public class ListHandler
+	[TestClass]
+	public class ListHandlerTests
 	{
-		public List<string> List = new List<string>();
-
+		[TestMethod]
 		public void AddFiveStrings()
 		{
-			List.Add("Sharepoint är roligt");
-			List.Add("Jag är Sharepoint developer");
-			List.Add("jag kan javaScript");
-			List.Add("Jag kan HTML");
-			List.Add("Jag kan Css");
-
+			ListHandler sut = new ListHandler();
+			sut.AddFiveStrings();
+			Assert.AreEqual(5, sut.List.Count);
 		}
-
+		[TestMethod]
 		public void RemoveThirdString()
 		{
-			List.Remove("jag kan javaScript");
-
+			ListHandler sut = new ListHandler();
+			sut.AddFiveStrings();
+			string fourthString = sut.List[3];
+			sut.RemoveThirdString();
+			Assert.AreEqual(4, sut.List.Count);
+			Assert.AreEqual(fourthString, sut.List[2]);
 		}
-
+		[TestMethod]
+		[ExpectedException(typeof(ArgumentOutOfRangeException))]
+		public void ArgumentOutOfRange()
+		{
+			ListHandler sut = new ListHandler();
+			sut.AddFiveStrings();
+			sut.RemoveThirdString();
+			Console.WriteLine(sut.List[4]);
+		}
+		[TestMethod]
 		public void Sort()
 		{
-			List.Sort();
+			ListHandler sut = new ListHandler();
+			sut.List.Add("Cesar");
+			sut.List.Add("Bertil");
+			sut.List.Add("Adam");
+			sut.Sort();
+			Assert.AreEqual("Adam", sut.List[0]);
 		}
+
 	}
 }

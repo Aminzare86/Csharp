@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{9B69F070-0926-4B03-A173-6A5287143ED4}</ProjectGuid>
+    <ProjectGuid>{0EB987AD-7CC4-4107-9007-9637DD5EA2DD}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>CircusTestsLib</RootNamespace>
@@ -56,7 +56,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\CircusLib\CircusLib.csproj">
-      <Project>{1b1f0212-c5f0-4b9a-9ccf-9c9f83897b6c}</Project>
+      <Project>{1c6a00aa-4d44-467b-91ec-b63ccd639f97}</Project>
       <Name>CircusLib</Name>
     </ProjectReference>
   </ItemGroup>

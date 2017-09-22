@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{1B1F0212-C5F0-4B9A-9CCF-9C9F83897B6C}</ProjectGuid>
+    <ProjectGuid>{1C6A00AA-4D44-467B-91EC-B63CCD639F97}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>CircusLib</RootNamespace>

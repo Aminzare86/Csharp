@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{6E7234B6-0D96-4ECE-AB3D-993CD7EEAF45}</ProjectGuid>
+    <ProjectGuid>{8CDA25F2-90B8-435E-9331-858EA828B694}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>StoretellerLib</RootNamespace>
