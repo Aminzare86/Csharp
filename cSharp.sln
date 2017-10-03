@@ -91,6 +91,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SlideShow", "SlideShow", "{
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SlideshowApp", "SlideshowApp\SlideshowApp.csproj", "{988E2618-3880-4B53-9230-1559867418CB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AddTwoFilestoThird", "AddTwoFilestoThird\AddTwoFilestoThird.csproj", "{46E95F72-8FE9-487B-8908-504E31418BED}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -209,6 +211,10 @@ Global
 		{988E2618-3880-4B53-9230-1559867418CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{988E2618-3880-4B53-9230-1559867418CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{988E2618-3880-4B53-9230-1559867418CB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{46E95F72-8FE9-487B-8908-504E31418BED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{46E95F72-8FE9-487B-8908-504E31418BED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{46E95F72-8FE9-487B-8908-504E31418BED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{46E95F72-8FE9-487B-8908-504E31418BED}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -244,6 +250,7 @@ Global
 		{1D45FCB9-359E-41B1-9BB2-288DA45354A3} = {F85F7952-F046-4594-B77B-A3550EE78A0B}
 		{5DBA4979-B5FD-444C-B18F-B62ADBF95834} = {9FE80105-0D45-4CFA-88D9-E780529CCDF9}
 		{988E2618-3880-4B53-9230-1559867418CB} = {45B3F779-69B1-4CF8-9B16-86670F1AB3D6}
+		{46E95F72-8FE9-487B-8908-504E31418BED} = {D4DCEC5C-CADF-4693-B31E-73C5A5E5B353}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {F0C6579F-E23A-4D1D-A276-C8A9AEFDA67B}
