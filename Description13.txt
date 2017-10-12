@@ -1,0 +1,12 @@
+
+Bygg en klientapplikation i där man kan ange förnamn,
+efternamn och personnummer. Applikationen ska då svara
+med:
+
+"God morgon herr {Efternamn}"
+
+  eller
+
+"God morgon fröken {Efternamn}"
+
+  beroende på om personnumret angett en man eller kvinna

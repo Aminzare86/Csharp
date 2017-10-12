@@ -1,0 +1,6 @@
+Skriv en Windows Forms Application där du kan välja tre filer.
+De första två filerna ska läggas till den tredje, eventuellt
+redan befintliga filen.
+
+Välj en katalog i filsystemet och populera en dropdownlista med
+alla filer som har filändelsen *.txt.

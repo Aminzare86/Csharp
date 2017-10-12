@@ -1,0 +1,3 @@
+Gör en slideshow. Man ska kunna välja ett antal bilder i filsystemet.
+Därefter ska varje bild visas under tre sekunder efter varandra i 
+en oändlig loop.

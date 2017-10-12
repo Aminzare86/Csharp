@@ -1,0 +1,9 @@
+
+Gör en klass som räknar antalet rader i en fil som inleds med texten "#VER". 
+Verifiera med ett test att antalet #VER-rader stämmer överens med det faktiska antalet i ovanstående SIE-fil.
+
+RegexMatchCounter
+  CountMatchingLines(string content, string regexPattern)
+RegexMatchCounterTests
+  var sut = new RegexMatchCounter();
+  var lineCount = sut.CountMatchingLines(content, "#VER")

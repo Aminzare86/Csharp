@@ -1,19 +1,25 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.26730.16
+VisualStudioVersion = 15.0.27004.2002
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultiplierTestsLib", "MultiplierTestsLib\MultiplierTestsLib.csproj", "{D9D6D3E4-C947-4279-B287-BB7907775DF0}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultiplierLib", "MultiplierLib\MultiplierLib.csproj", "{8C6BCFFC-5940-40D7-B3B3-1BF8174B96DE}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Multiplier", "Multiplier", "{9AE29A58-965F-4E4B-8D55-8257BAA262F5}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Multiplier(Date,fileConvert,List)", "Multiplier(Date,fileConvert,List)", "{9AE29A58-965F-4E4B-8D55-8257BAA262F5}"
+	ProjectSection(SolutionItems) = preProject
+		Description.txt = Description.txt
+	EndProjectSection
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Demo", "Demo", "{0425E06C-44E2-434F-AA7B-08E178604708}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Demo(TV Price)", "Demo(TV Price)", "{0425E06C-44E2-434F-AA7B-08E178604708}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo_01", "Demo_01\Demo_01.csproj", "{6158387E-763B-48BC-A815-5E503DCDCCF5}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Storyteller", "Storyteller", "{A2339B69-FB2E-4F65-ACE2-F7C7D42A128A}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Storyteller(Linda should be scary)", "Storyteller(Linda should be scary)", "{A2339B69-FB2E-4F65-ACE2-F7C7D42A128A}"
+	ProjectSection(SolutionItems) = preProject
+		Description2.txt = Description2.txt
+	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StoretellerTestsLib", "StoretellerTestsLib\StoretellerTestsLib.csproj", "{5A5B7DCB-290D-443B-B2B0-9F839540A5E6}"
 EndProject
@@ -22,18 +28,27 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StorytellerWindowsApp", "StorytellerWindowsApp\StorytellerWindowsApp.csproj", "{E256ED20-D881-42A1-B3A3-77BB1DF8E5E2}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Circus", "Circus", "{1BAE579C-06B0-477D-9A6F-6F2EB471253C}"
+	ProjectSection(SolutionItems) = preProject
+		Description4.txt = Description4.txt
+	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CircusLib", "CircusLib\CircusLib.csproj", "{1C6A00AA-4D44-467B-91EC-B63CCD639F97}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CircusTestsLib", "CircusTestsLib\CircusTestsLib.csproj", "{0EB987AD-7CC4-4107-9007-9637DD5EA2DD}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Varukorg", "Varukorg", "{9A3E3E4E-1FFA-4D66-8988-EBF69D451FA3}"
+	ProjectSection(SolutionItems) = preProject
+		Description3.txt = Description3.txt
+	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VarukorgLib", "VarukorgLib\VarukorgLib.csproj", "{492B07B0-9E48-4BBC-B745-E9852197F389}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VarukorgTestsLib", "VarukorgTestsLib\VarukorgTestsLib.csproj", "{0D37218F-F88F-43A7-AC1D-A86940D7785B}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Exam", "Exam", "{7D786327-C5CC-41D0-977C-AF639EEDE012}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Exam(Total Betyg)", "Exam(Total Betyg)", "{7D786327-C5CC-41D0-977C-AF639EEDE012}"
+	ProjectSection(SolutionItems) = preProject
+		Description5.txt = Description5.txt
+	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExamTestsLib", "ExamTestsLib\ExamTestsLib.csproj", "{BD1451BF-F680-491B-9AB7-BBDAB546CDAA}"
 EndProject
@@ -59,13 +74,19 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "OOP", "OOP", "{67FFAFC0-08E
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThrowDice", "ThrowDice\ThrowDice.csproj", "{EBBED69E-2566-4F87-ACA9-FD4136A013CA}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Schoolcount", "Schoolcount", "{060CD2AC-8E20-4F29-A8FC-E28048595A7F}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Schoolcount(Anta Studier i Skolan)", "Schoolcount(Anta Studier i Skolan)", "{060CD2AC-8E20-4F29-A8FC-E28048595A7F}"
+	ProjectSection(SolutionItems) = preProject
+		Description6.txt = Description6.txt
+	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SchoolCount", "SchoolCount\SchoolCount.csproj", "{C6FDB0E5-9395-465C-84C5-FCFC12C07F77}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Car", "Car", "{945B2C54-7E99-4D65-9D59-01E8F05AB933}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ByggHus", "ByggHus", "{400475EC-BA52-435C-A328-66436AB324C8}"
+	ProjectSection(SolutionItems) = preProject
+		Description8.txt = Description8.txt
+	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ByggaHusTests", "ByggaHusTests\ByggaHusTests.csproj", "{FA9B4AE8-741B-4E48-A771-F8EA65565183}"
 EndProject
@@ -75,7 +96,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ByggahusApp", "ByggahusApp\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarBuilderApp", "CarBuilderApp\CarBuilderApp.csproj", "{866B1512-CE11-493E-AB21-D448EFC81638}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Part", "Part", "{F85F7952-F046-4594-B77B-A3550EE78A0B}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Part(Ansvarig)", "Part(Ansvarig)", "{F85F7952-F046-4594-B77B-A3550EE78A0B}"
+	ProjectSection(SolutionItems) = preProject
+		Description7.txt = Description7.txt
+	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PartTestsLib", "PartTestsLib\PartTestsLib.csproj", "{EE5F0DA6-8ACF-4318-B9C4-2C318352B060}"
 EndProject
@@ -86,18 +110,30 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowsFormsApp1", "WindowsFormsApp1\WindowsFormsApp1.csproj", "{5DBA4979-B5FD-444C-B18F-B62ADBF95834}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AddTwoFilesToThird", "AddTwoFilesToThird", "{D4DCEC5C-CADF-4693-B31E-73C5A5E5B353}"
+	ProjectSection(SolutionItems) = preProject
+		Description9.txt = Description9.txt
+	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SlideShow", "SlideShow", "{45B3F779-69B1-4CF8-9B16-86670F1AB3D6}"
+	ProjectSection(SolutionItems) = preProject
+		Description12.txt = Description12.txt
+	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SlideshowApp", "SlideshowApp\SlideshowApp.csproj", "{988E2618-3880-4B53-9230-1559867418CB}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AddTwoFilestoThird", "AddTwoFilestoThird\AddTwoFilestoThird.csproj", "{46E95F72-8FE9-487B-8908-504E31418BED}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Man eller Kvinna", "Man eller Kvinna", "{F98EA4C7-CDB5-4E38-8467-E91E50990111}"
+	ProjectSection(SolutionItems) = preProject
+		Description13.txt = Description13.txt
+	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowsFormsApp5", "WindowsFormsApp5\WindowsFormsApp5.csproj", "{DAF5BE02-3914-4785-A2ED-06859CC0D18D}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Person Number", "Person Number", "{1426198E-B60A-42B0-99C1-BF04258BD068}"
+	ProjectSection(SolutionItems) = preProject
+		Description14.txt = Description14.txt
+	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RäknaSistaSifro", "RäknaSistaSifro\RäknaSistaSifro.csproj", "{CF0C34C4-1DAE-47E0-B85C-643C99A16892}"
 EndProject
@@ -128,12 +164,18 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RegexProject", "RegexProject\RegexProject.csproj", "{9995C202-A33D-4E60-A216-E74256DC7294}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Regex Convert", "Regex Convert", "{A93B4B9B-484A-466B-BE2B-D0612BA63B2B}"
+	ProjectSection(SolutionItems) = preProject
+		Description16.txt = Description16.txt
+	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RegexConvert", "RegexConvert\RegexConvert.csproj", "{AC0FC23E-ECF0-403F-9EFF-0049CAADB570}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmployeeLib", "EmployeeLib\EmployeeLib.csproj", "{42717DF2-2D31-4271-A21D-CA1DFFBA8C2F}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Utbildning Timmar", "Utbildning Timmar", "{3302C5F3-DC0E-4491-8C40-607C024B45FE}"
+	ProjectSection(SolutionItems) = preProject
+		Description15.txt = Description15.txt
+	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "consoleApp", "consoleApp", "{E817234A-9F5A-4F19-9070-A7F7CD7992CE}"
 EndProject
@@ -145,9 +187,43 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PershonNumberLib", "Pershon
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "RecursiveAcccounts", "RecursiveAcccounts", "{19651EBE-4E3F-47F2-B68A-1977EF57222F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AccountLib", "AccountLib\AccountLib.csproj", "{049CB96C-B534-4735-A492-9C8F2B0721D6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AccountLib", "AccountLib\AccountLib.csproj", "{049CB96C-B534-4735-A492-9C8F2B0721D6}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AccountTestsLib", "AccountTestsLib\AccountTestsLib.csproj", "{7D5798CD-903E-4618-AA86-14BC84FF3117}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SIEImport(sortera 1010 5730.50)", "SIEImport(sortera 1010 5730.50)", "{75619802-11FE-4082-9BD6-7D10F9F13D87}"
+	ProjectSection(SolutionItems) = preProject
+		Description11.txt = Description11.txt
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SIEImportTests", "SIEImportTests\SIEImportTests.csproj", "{FADE32BE-3DD6-4CD5-BD75-88BA79B2D056}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "RegexMatch(Antal ver)", "RegexMatch(Antal ver)", "{51AF7733-97EC-4E7A-AFF0-150685410892}"
+	ProjectSection(SolutionItems) = preProject
+		Description10.txt = Description10.txt
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RegexMatchCounterTests", "RegexMatchCounterTests\RegexMatchCounterTests.csproj", "{B0F7DBD6-9C5C-4B25-B155-CAAD24B55CAC}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RegexMatchCounterLib", "RegexMatchCounterLib\RegexMatchCounterLib.csproj", "{E6343ED9-BFF6-4938-83F8-0649746A052C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Calculator", "Calculator", "{F94CB209-6592-4633-A630-BED6FED129F6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalculatorTestLib", "CalculatorTestLib\CalculatorTestLib.csproj", "{FD5E9C3E-27BC-4FD2-B027-337AA5C8EF3A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CalculatorLib", "CalculatorLib\CalculatorLib.csproj", "{95190FD9-62FE-4335-A0FF-F574C84FEB79}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalculatorFormsApp", "CalculatorFormsApp\CalculatorFormsApp.csproj", "{9E7DEDC6-FF5F-4D31-B84F-CD33464B74CD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Grupera string", "Grupera string", "{DDD4ADB2-01ED-472B-AABC-4CB649ACBAF5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "FileHashes", "FileHashes", "{903B3ADF-0524-4DCB-9E97-841BEBEB77AD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HashesTests", "HashesTests\HashesTests.csproj", "{36E60EFC-497D-44F4-8FFB-48BCCDE28FDB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UtbildningLib", "UtbildningLib\UtbildningLib.csproj", "{0C26FBFE-C2B1-4725-BC0B-399658C7FEA7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UtbildningTestsLib", "UtbildningTestsLib\UtbildningTestsLib.csproj", "{846D7B5E-5CDF-4B9C-89FB-2382DE2EE06B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -335,6 +411,42 @@ Global
 		{7D5798CD-903E-4618-AA86-14BC84FF3117}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7D5798CD-903E-4618-AA86-14BC84FF3117}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7D5798CD-903E-4618-AA86-14BC84FF3117}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FADE32BE-3DD6-4CD5-BD75-88BA79B2D056}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FADE32BE-3DD6-4CD5-BD75-88BA79B2D056}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FADE32BE-3DD6-4CD5-BD75-88BA79B2D056}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FADE32BE-3DD6-4CD5-BD75-88BA79B2D056}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B0F7DBD6-9C5C-4B25-B155-CAAD24B55CAC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B0F7DBD6-9C5C-4B25-B155-CAAD24B55CAC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B0F7DBD6-9C5C-4B25-B155-CAAD24B55CAC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B0F7DBD6-9C5C-4B25-B155-CAAD24B55CAC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E6343ED9-BFF6-4938-83F8-0649746A052C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E6343ED9-BFF6-4938-83F8-0649746A052C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E6343ED9-BFF6-4938-83F8-0649746A052C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E6343ED9-BFF6-4938-83F8-0649746A052C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FD5E9C3E-27BC-4FD2-B027-337AA5C8EF3A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD5E9C3E-27BC-4FD2-B027-337AA5C8EF3A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD5E9C3E-27BC-4FD2-B027-337AA5C8EF3A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD5E9C3E-27BC-4FD2-B027-337AA5C8EF3A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{95190FD9-62FE-4335-A0FF-F574C84FEB79}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{95190FD9-62FE-4335-A0FF-F574C84FEB79}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{95190FD9-62FE-4335-A0FF-F574C84FEB79}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{95190FD9-62FE-4335-A0FF-F574C84FEB79}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9E7DEDC6-FF5F-4D31-B84F-CD33464B74CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9E7DEDC6-FF5F-4D31-B84F-CD33464B74CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9E7DEDC6-FF5F-4D31-B84F-CD33464B74CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9E7DEDC6-FF5F-4D31-B84F-CD33464B74CD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{36E60EFC-497D-44F4-8FFB-48BCCDE28FDB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{36E60EFC-497D-44F4-8FFB-48BCCDE28FDB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{36E60EFC-497D-44F4-8FFB-48BCCDE28FDB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{36E60EFC-497D-44F4-8FFB-48BCCDE28FDB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0C26FBFE-C2B1-4725-BC0B-399658C7FEA7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0C26FBFE-C2B1-4725-BC0B-399658C7FEA7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0C26FBFE-C2B1-4725-BC0B-399658C7FEA7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0C26FBFE-C2B1-4725-BC0B-399658C7FEA7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{846D7B5E-5CDF-4B9C-89FB-2382DE2EE06B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{846D7B5E-5CDF-4B9C-89FB-2382DE2EE06B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{846D7B5E-5CDF-4B9C-89FB-2382DE2EE06B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{846D7B5E-5CDF-4B9C-89FB-2382DE2EE06B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -384,7 +496,7 @@ Global
 		{C2C87536-FDC6-4BF4-A084-D4BA67DACDF9} = {DB3E6709-2DAB-41D1-A544-69D21147B78E}
 		{2AF9390F-1F22-4570-B590-A4BE612FB370} = {329CBB53-EEF4-41D0-BC1E-EFBE78DAD18E}
 		{36260F48-B5E5-4C24-BE03-4D735F08266C} = {329CBB53-EEF4-41D0-BC1E-EFBE78DAD18E}
-		{9995C202-A33D-4E60-A216-E74256DC7294} = {B29AFE1E-EF5E-469F-AD3D-619EC7FCC90A}
+		{9995C202-A33D-4E60-A216-E74256DC7294} = {DDD4ADB2-01ED-472B-AABC-4CB649ACBAF5}
 		{A93B4B9B-484A-466B-BE2B-D0612BA63B2B} = {B29AFE1E-EF5E-469F-AD3D-619EC7FCC90A}
 		{AC0FC23E-ECF0-403F-9EFF-0049CAADB570} = {A93B4B9B-484A-466B-BE2B-D0612BA63B2B}
 		{42717DF2-2D31-4271-A21D-CA1DFFBA8C2F} = {A93B4B9B-484A-466B-BE2B-D0612BA63B2B}
@@ -394,6 +506,16 @@ Global
 		{082D7792-6AB2-417C-9D14-6A5C27E56C56} = {F0E8CA84-50DB-4E0C-9D5D-E429F20AEE18}
 		{049CB96C-B534-4735-A492-9C8F2B0721D6} = {19651EBE-4E3F-47F2-B68A-1977EF57222F}
 		{7D5798CD-903E-4618-AA86-14BC84FF3117} = {19651EBE-4E3F-47F2-B68A-1977EF57222F}
+		{FADE32BE-3DD6-4CD5-BD75-88BA79B2D056} = {75619802-11FE-4082-9BD6-7D10F9F13D87}
+		{B0F7DBD6-9C5C-4B25-B155-CAAD24B55CAC} = {51AF7733-97EC-4E7A-AFF0-150685410892}
+		{E6343ED9-BFF6-4938-83F8-0649746A052C} = {51AF7733-97EC-4E7A-AFF0-150685410892}
+		{FD5E9C3E-27BC-4FD2-B027-337AA5C8EF3A} = {F94CB209-6592-4633-A630-BED6FED129F6}
+		{95190FD9-62FE-4335-A0FF-F574C84FEB79} = {F94CB209-6592-4633-A630-BED6FED129F6}
+		{9E7DEDC6-FF5F-4D31-B84F-CD33464B74CD} = {F94CB209-6592-4633-A630-BED6FED129F6}
+		{DDD4ADB2-01ED-472B-AABC-4CB649ACBAF5} = {B29AFE1E-EF5E-469F-AD3D-619EC7FCC90A}
+		{36E60EFC-497D-44F4-8FFB-48BCCDE28FDB} = {903B3ADF-0524-4DCB-9E97-841BEBEB77AD}
+		{0C26FBFE-C2B1-4725-BC0B-399658C7FEA7} = {3302C5F3-DC0E-4491-8C40-607C024B45FE}
+		{846D7B5E-5CDF-4B9C-89FB-2382DE2EE06B} = {3302C5F3-DC0E-4491-8C40-607C024B45FE}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {F0C6579F-E23A-4D1D-A276-C8A9AEFDA67B}
