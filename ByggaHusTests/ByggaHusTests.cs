@@ -20,8 +20,8 @@ namespace ByggaHusTests
 			Room room4 = new Room();
 			room1.AddWindow(window1);
 			room2.AddWindow(window2);
-			room2.AddWindow(window3);
-			room2.AddWindow(window4);
+			room3.AddWindow(window3);
+			room4.AddWindow(window4);
 			aHouse.AddRoom(room1);
 			aHouse.AddRoom(room2);
 			aHouse.AddRoom(room3);
