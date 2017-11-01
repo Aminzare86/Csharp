@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.27004.2005
+VisualStudioVersion = 15.0.27004.2006
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultiplierTestsLib", "MultiplierTestsLib\MultiplierTestsLib.csproj", "{D9D6D3E4-C947-4279-B287-BB7907775DF0}"
 EndProject
@@ -317,6 +317,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TwoFilesProductLib", "TwoFi
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TwoFileProductApp", "TwoFileProductApp\TwoFileProductApp.csproj", "{C7E8E2A5-DE86-412B-B2F5-0F1E43F24804}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FakturaAppen", "FakturaAppen\FakturaAppen.csproj", "{86E67F0D-2CEC-4C30-8652-595B759CC211}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FakturaLibb", "FakturaLibb\FakturaLibb.csproj", "{9641FC61-8CD1-4400-BECD-0F294B45C41D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FakturaWinApp", "FakturaWinApp\FakturaWinApp.csproj", "{474F597F-3521-45E1-B622-A2BFDDE477A7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -627,6 +633,18 @@ Global
 		{C7E8E2A5-DE86-412B-B2F5-0F1E43F24804}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C7E8E2A5-DE86-412B-B2F5-0F1E43F24804}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C7E8E2A5-DE86-412B-B2F5-0F1E43F24804}.Release|Any CPU.Build.0 = Release|Any CPU
+		{86E67F0D-2CEC-4C30-8652-595B759CC211}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{86E67F0D-2CEC-4C30-8652-595B759CC211}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{86E67F0D-2CEC-4C30-8652-595B759CC211}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{86E67F0D-2CEC-4C30-8652-595B759CC211}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9641FC61-8CD1-4400-BECD-0F294B45C41D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9641FC61-8CD1-4400-BECD-0F294B45C41D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9641FC61-8CD1-4400-BECD-0F294B45C41D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9641FC61-8CD1-4400-BECD-0F294B45C41D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{474F597F-3521-45E1-B622-A2BFDDE477A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{474F597F-3521-45E1-B622-A2BFDDE477A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{474F597F-3521-45E1-B622-A2BFDDE477A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{474F597F-3521-45E1-B622-A2BFDDE477A7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -722,6 +740,9 @@ Global
 		{4CB031D0-02EF-4E91-B76B-4EC5D615AF1D} = {9C8A3866-7CCE-46CE-BE7B-EDF66F32EE72}
 		{9698C326-C469-4395-AA37-3D07BCD7D9EE} = {9C8A3866-7CCE-46CE-BE7B-EDF66F32EE72}
 		{C7E8E2A5-DE86-412B-B2F5-0F1E43F24804} = {9C8A3866-7CCE-46CE-BE7B-EDF66F32EE72}
+		{86E67F0D-2CEC-4C30-8652-595B759CC211} = {11E069E5-FABD-4743-8AE4-FA78A778C49A}
+		{9641FC61-8CD1-4400-BECD-0F294B45C41D} = {11E069E5-FABD-4743-8AE4-FA78A778C49A}
+		{474F597F-3521-45E1-B622-A2BFDDE477A7} = {11E069E5-FABD-4743-8AE4-FA78A778C49A}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {F0C6579F-E23A-4D1D-A276-C8A9AEFDA67B}
