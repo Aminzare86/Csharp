@@ -17,7 +17,7 @@ namespace SIEImportTests
 		{
 			//Dictionary<string, decimal> accounts = new Dictionary<string,decimal>();
 			var accounts = new Dictionary<string, decimal>();
-		var streamReader=File.OpenText(@"MATTIAS0_SIE4 2015-09-01 - 2016-08-31.SE.txt");
+		    var streamReader=File.OpenText(@"MATTIAS0_SIE4 2015-09-01 - 2016-08-31.SE.txt");
 			while (true)
 			{
 				var Line = streamReader.ReadLine();

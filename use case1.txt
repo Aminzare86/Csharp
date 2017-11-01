@@ -1,0 +1,11 @@
+Övning - Programmering C# (SPO16) - SIE-bearbetning
+Bygg enConsole-applikation somfrågarefter sökvägen tillen SIE-fil och somdärefter beräknar totalen av de belopp somanges pårader som
+inleds med texten #TRANS. Programmetska ocksåredovisa hur många #TRANS-rader den har läst.
+Du hittarettexempel påen SIE-fil på
+https://github.com/MattiasAsplund/accounting/blob/master/AccountingIntegrationTestsLib/MATTIAS0_SIE4%202015-09-01%20-%202016-
+08-31.SE.txt
+Filen innehåller bokföring för Mattias Asplund ABunder perioden 2015-09-01 - 2016-08-31.
+Bedömingskriterier
+G:Upplagtsomettseparat projekt på Github där URL:en är mailad tillmattias@mattiasasplund.se
+G:Applikationen gåratt köra och gör vad den ska
+VG:Ändamålsenligaenhetstester

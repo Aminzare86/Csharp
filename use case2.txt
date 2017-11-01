@@ -1,0 +1,8 @@
+Bygg enConsole-applikation somfrågarefter sökvägen tillen SIE-fil och somdärefter
+beräknar totalen per konto av de belopp somanges på
+rader sominleds med texten #TRANS.
+Applikationen skalistaalla konton och dess totaler.
+Du hittarettexempel påen SIE-fil på
+https://github.com/MattiasAsplund/accounting/blob/master/AccountingIntegrationTestsLib/MATTIAS0_SIE4%202015-09-01%20-%202016-
+08-31.SE.txt
+Filen innehåller bokföring för Mattias Asplund ABunder perioden 2015-09-01 - 2016-08-31.
